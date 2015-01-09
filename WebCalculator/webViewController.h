@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  webViewController.h
 //  WebCalculator
 //
 //  Created by Gabriel Borri de Azevedo on 1/9/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface WebViewController : UIViewController
 
+@property NSInteger result;
 
 @end
-
